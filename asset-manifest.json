@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.b9d669c2.css",
+    "main.js": "/Portfolio/static/js/main.14264ab8.js",
+    "static/media/myone.jpg": "/Portfolio/static/media/myone.9ab572fe034d49522d97.jpg",
+    "static/media/weather.png": "/Portfolio/static/media/weather.bfbadb278e98dff0f7db.png",
+    "static/media/YOLO.webp": "/Portfolio/static/media/YOLO.be8f69708a77cd8a7a15.webp",
+    "static/media/stock.webp": "/Portfolio/static/media/stock.bdebaa0a84f8398985c5.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.b9d669c2.css.map": "/Portfolio/static/css/main.b9d669c2.css.map",
+    "main.14264ab8.js.map": "/Portfolio/static/js/main.14264ab8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9d669c2.css",
+    "static/js/main.14264ab8.js"
+  ]
+}
