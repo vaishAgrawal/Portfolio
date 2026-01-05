@@ -28,8 +28,8 @@ const Contact = () => {
           {
             icon: <FaPhoneAlt size={30} />,
             title: "Phone",
-            link: "tel:+917499582067",
-            text: "+91 7499582067",
+            link: "tel:+9763157871",
+            text: "+91 9763157871",
           },
           {
             icon: <FaEnvelope size={30} />,

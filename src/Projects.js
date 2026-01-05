@@ -2,6 +2,8 @@ import React from "react";
 import stockImg from "./assets/stock.webp";
 import weatherImg from "./assets/weather.png";
 import yoloImg from "./assets/YOLO.webp";
+import wedding from "./assets/wedding.jpeg";
+
 
 const projects = [
   {
@@ -18,7 +20,7 @@ const projects = [
     description:
       "A sleek React app showing live weather updates with location support and a beautiful UI.",
     image: weatherImg,
-    link: "https://github.com/vaishAgrawal/sky-cast-weather-app", // 🔗 Your link
+    link: "https://sky-cast-aiz6.vercel.app/", // 🔗 Your link
   },
   {
     id: 3,
@@ -28,6 +30,15 @@ const projects = [
     image: yoloImg,
     link: "https://github.com/vaishAgrawal/real-time-object-detection", // 🔗 Your link
   },
+  {
+  id: 4,
+  title: "Wedding Decoration Chooser",
+  description:
+    "A React-based feature that allows users to explore, select, and upload wedding stage decoration ideas with a clean and user-friendly interface.",
+  image: wedding, // import your image at top
+  link: "https://celebrate-hub-21hs.vercel.app/", // or your main wedding planner repo
+},
+
 ];
 
 function Projects() {

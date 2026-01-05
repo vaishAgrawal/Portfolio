@@ -14,7 +14,8 @@ const About = () => {
           <img
             src={myImage}
             alt="Vaishnavi Avatar"
-            className="rounded-full w-64 shadow-2xl border-4 border-gray-800 hover:scale-105 transition-transform duration-500"
+            className="rounded-full w-150 h-80 object-cover shadow-2xl border-4 border-gray-800 hover:scale-105 transition-transform duration-500"
+
           />
         </div>
 
