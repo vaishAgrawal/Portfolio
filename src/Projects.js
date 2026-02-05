@@ -36,7 +36,7 @@ const projects = [
   description:
     "A React-based feature that allows users to explore, select, and upload wedding stage decoration ideas with a clean and user-friendly interface.",
   image: wedding, // import your image at top
-  link: "https://celebrate-hub-21hs.vercel.app/", // or your main wedding planner repo
+  link: "://celebrate-hub-21hs.vercel.app/", // or your main wedding planner repo
 },
 
 ];
