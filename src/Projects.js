@@ -1,18 +1,18 @@
 import React from "react";
-import stockImg from "./assets/stock.webp";
 import weatherImg from "./assets/weather.png";
 import yoloImg from "./assets/YOLO.webp";
 import wedding from "./assets/wedding.jpeg";
-
+import fruitBounty from "./assets/fruitbounty.png";
+import Resume from "./assets/Resume.png";
 
 const projects = [
   {
     id: 1,
-    title: "Stock Monitoring Tool",
+    title: "Resume Shortlisting System",
     description:
-      "A frontend dashboard inspired by Zerodha, built using ReactJS with a modern responsive UI.",
-    image: stockImg,
-    link: "https://github.com/vaishAgrawal/stock-monitoring-tool", // 🔗 Your link
+      "An ATS-focused web app that helps evaluate resumes quickly with an intuitive and modern interface.",
+    image: Resume,
+    link: "https://ats-checker-klvd.onrender.com/",
   },
   {
     id: 2,
@@ -38,6 +38,14 @@ const projects = [
   image: wedding, // import your image at top
   link: "https://celebrate-hub-21hs.vercel.app/", // or your main wedding planner repo
 },
+  {
+  id: 5,
+  title: "FruitBounty",
+  description:
+    "A fruit salad startup website built with React, featuring a vibrant green theme, product customization, and a seamless shopping experience for fresh daily salads.",
+  image: fruitBounty,
+  link: "https://fruitbountyshop.vercel.app/",
+},
 
 ];
 
@@ -59,28 +67,30 @@ function Projects() {
       </div>
 
       {/* Project Cards */}
-      <div className="flex flex-wrap justify-center gap-10">
-        {projects.map((project) => (
-          <a
-            key={project.id}
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-3xl shadow-lg hover:shadow-purple-500/50 hover:scale-105 transition-transform duration-500 w-80"
-          >
-            <img
-              src={project.image}
-              alt={project.title}
-              className="rounded-t-3xl w-full h-48 object-cover"
-            />
-            <div className="p-5">
-              <h3 className="text-xl font-bold text-purple-300 mb-2">
-                {project.title}
-              </h3>
-              <p className="text-gray-300">{project.description}</p>
-            </div>
-          </a>
-        ))}
+      <div className="mx-auto max-w-7xl">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 justify-items-center">
+          {projects.map((project) => (
+            <a
+              key={project.id}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full max-w-[22rem] bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-3xl shadow-lg hover:shadow-purple-500/50 hover:scale-105 transition-transform duration-500"
+            >
+              <img
+                src={project.image}
+                alt={project.title}
+                className="rounded-t-3xl w-full h-48 object-cover"
+              />
+              <div className="p-5">
+                <h3 className="text-xl font-bold text-purple-300 mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-gray-300">{project.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
       </div>
 
       {/* GitHub Link */}

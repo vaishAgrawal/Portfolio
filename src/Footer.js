@@ -12,7 +12,7 @@ const Footer = () => {
           </h2>
           <p className="text-gray-400">
             Crafting modern, responsive, and user-focused designs with Frontend,
-            Python, and Machine Learning expertise.
+            Python, and Artifical Intelligence expertise.
           </p>
         </div>
 

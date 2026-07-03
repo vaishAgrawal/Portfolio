@@ -5,9 +5,9 @@ const Education = () => {
     {
       degree: "B.Tech in Artificial Intelligence",
       institute: "Dr. Babasaheb Ambedkar Technological University",
-      year: "2023 - Present",
+      year: "2023 - 2026",
       description:
-        "Currently pursuing B.Tech with a focus on Artificial Intelligence and Machine Learning.",
+        "Currently pursuing B.Tech with a specialization inArtificia l Intelligence.",
     },
     {
       degree: "Higher Secondary Education",

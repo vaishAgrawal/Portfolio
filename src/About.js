@@ -1,6 +1,6 @@
 import React from "react";
 import myImage from "./assets/myone.jpg"; // ✅ Correct image import
-// import myResume from "./assets/Resume.pdf"; // ✅ Import your Resume
+import myResume from "./assets/Resume.pdf"; // ✅ Import your Resume
 
 const About = () => {
   return (
@@ -28,7 +28,7 @@ const About = () => {
             Hi 👋, I’m <span className="text-green-400 font-semibold">Vaishnavi</span> — a passionate 
             <span className="text-yellow-300"> Frontend Developer</span>, 
             <span className="text-blue-300"> Python Programmer</span>, and 
-            <span className="text-green-300"> Machine Learning Enthusiast</span>.
+            <span className="text-green-300"> Artificail Intelligence Enthusiast</span>.
           </p>
           <p className="mb-6 text-gray-400">
             I specialize in crafting sleek and responsive UIs, writing clean Python scripts, and building ML models to create innovative solutions for real-world problems.
@@ -56,14 +56,14 @@ const About = () => {
                 Python
               </span>
               <span className="bg-gray-800 px-3 py-1 rounded-full text-sm hover:bg-gray-700 transition">
-                Machine Learning
+                Artificail Intelligence
               </span>
             </div>
           </div>
 
           {/* Download CV Button */}
           <a
-            // href={myResume}
+            href={myResume}
             download
             target="_blank"
             rel="noopener noreferrer"

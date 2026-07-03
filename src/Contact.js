@@ -58,7 +58,7 @@ const Contact = () => {
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-green-200 hover:text-cyan-100 hover:underline text-center break-all"
+              className="text-green-200 hover:text-cyan-100 hover:underline text-center whitespace-nowrap overflow-hidden text-ellipsis max-w-full"
             >
               {item.text}
             </a>
